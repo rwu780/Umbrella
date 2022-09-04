@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+        <EditTextPreference
+            android:defaultValue="94040"
+            android:key="zip_code"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Zip"
+            />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory>
+    <ListPreference
+        android:dialogTitle="Select Unit"
+        android:entries="@array/settings_list_preference_titles"
+        android:entryValues="@array/settings_list_preference_titles"
+        android:key="units_select"
+        android:title="Units"/>
+    </PreferenceCategory>
+</PreferenceScreen>

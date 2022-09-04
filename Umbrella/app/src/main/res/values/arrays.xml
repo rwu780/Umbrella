@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_list_preference_titles">
+        <item>Fahrenheit</item>
+        <item>Celeuis</item>
+        <item>Kelvin</item>
+    </string-array>
+</resources>
